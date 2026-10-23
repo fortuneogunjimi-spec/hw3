@@ -23,6 +23,7 @@ void llpivot (Node*& head, Node*& smaller, Node*& larger, int pivot)
     llpivot(head->next, smaller->next, larger, pivot);
   }
 
+  head = NULL;
 }
 
 //Code Plan
